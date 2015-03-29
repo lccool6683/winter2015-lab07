@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="takeout">
+    <customer>Clemens Lo</customer>
+    <burger>
+        <patty type="beef"/>
+        <cheeses top="american" bottom="swiss"/>
+        <sauce type="ketchup"/>
+    </burger>
+    <burger>
+        <patty type="vege"/>
+        <cheeses top="gruyere"/>
+        <topping type="shrooms"/>
+        <sauce type="ketchup"/>
+        <sauce type="mayo"/>
+    </burger>
+</order>
+

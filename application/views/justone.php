@@ -1,14 +1,14 @@
-<div class="row">
+<div class="row" >
     {order_name} for {customer} ({order_type})<br/>
     {burgers}
     <br/>
-    *Burger #{num}*<br/>
-    Base: {patty} burger<br/>
+    <u><b>*Burger #{num}*</b></u><br/>
+    <b>Base:</b> {patty}<br/>
     {cheeses}
-    Toppings: {toppings}<br/>
-    Sauces: {sauces}<br/>
-    Burger Total: {price}<br/>
+    <b>Toppings:</b> {toppings}<br/>
+    <b>Sauces:</b> {sauces}<br/>
+    <b>Burger Total:</b> {price}<br/>
     {/burgers}
     <br/>
-    ORDER TOTAL: {price}<br/>
+    <b>ORDER TOTAL: {price}</b><br/>
 </div>
